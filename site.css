@@ -1,0 +1,476 @@
+/*----------General----------*/
+body
+{
+    background-color: rgb(48, 49, 49);
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+
+/*----------Section Affiche Film----------*/
+.affichefilm
+{
+    
+    justify-content: start;
+    margin-bottom: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/*----------Section Affiche Série----------*/
+.afficheserie
+{
+    justify-content: start;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/*----------Affiche Film ou série----------*/
+.titre
+{
+    margin-top: 5%;
+    margin-left: 3%;
+    color: rgb(172, 172, 172);
+    font-family: 'Yantramanav', sans-serif;
+}
+#trait
+{
+    border-top: 1px solid rgb(92, 91, 91);
+    width: 95%;
+    margin-left: 3%;
+    margin-top: -20px;
+}
+.imageunivers1
+{
+    margin-left: 4%;
+    margin-top: 2%;
+    transform: scale(1);
+    transition: transform 400ms;
+}
+    .imageunivers1:hover 
+    {
+    transform: scale(1.15);
+    }
+.imageunivers2
+{
+    margin-left: 4%;
+    margin-top: 2%;
+    transform: scale(1);
+    transition: transform 400ms;
+}
+    .imageunivers2:hover 
+    {
+    transform: scale(1.15);
+    }
+.imageunivers3
+{
+    margin-left: 4%;
+    margin-top: 2%;
+    transform: scale(1);
+    transition: transform 400ms;
+}
+    .imageunivers3:hover 
+    {
+    transform: scale(1.15);
+    }
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11,
+.image12, .image13, .image14, .image15, .image16, .image17, .image18, .image19, .image20, .image21,
+.image22, .image23, .image24, .image25, .image26, .image27, .image28, .image29, .image30, .image31,
+.image32, .image33, .image34, .image35, .image36, .image37, .image38, .image39, .image40, .image41,
+.image42, .image43, .image44, .image45, .image46, .image47, .image48, .image49, .image50, .image51,
+.image52, .image53, .image54, .image55, .image56, .image57, .image58, .image59, .image60, .image61,
+.image62, .image63, .image64, .image65, .image66, .image67, .image68, .image69, .image70, .image71
+{
+    margin-left: 3%;
+    margin-top: 2%;
+    transform: scale(1);
+    transition: transform 400ms;
+}
+    .image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover,
+    .image6:hover, .image7:hover, .image8:hover, .image9:hover, .image10:hover,
+    .image11:hover, .image12:hover, .image13:hover, .image14:hover, .image15:hover,
+    .image16:hover, .image17:hover, .image18:hover, .image19:hover, .image20:hover,
+    .image21:hover, .image22:hover, .image23:hover, .image24:hover, .image25:hover,
+    .image26:hover, .image27:hover, .image28:hover, .image29:hover, .image30:hover,
+    .image31:hover, .image32:hover, .image33:hover, .image34:hover, .image35:hover,
+    .image36:hover, .image37:hover, .image38:hover, .image39:hover, .image40:hover,
+    .image41:hover, .image42:hover, .image43:hover, .image44:hover, .image45:hover,
+    .image46:hover, .image47:hover, .image48:hover, .image49:hover, .image50:hover,
+    .image51:hover, .image52:hover, .image53:hover, .image54:hover, .image55:hover,
+    .image56:hover, .image57:hover, .image58:hover, .image59:hover, .image60:hover,
+    .image61:hover, .image62:hover, .image63:hover, .image64:hover, .image65:hover,
+    .image66:hover, .image67:hover, .image68:hover, .image69:hover, .image70:hover,
+    .image71:hover
+    {
+    transform: scale(1.25);
+    }
+
+
+
+
+
+
+
+
+/*----------Page 2 Film ou série----------*/
+.video1, .video2, .video3, .video4, .video5, .video6, .video7, .video8,
+.video9, .video10, .video11, .video12, .video13, .video14, .video15, .video16,
+.video17, .video18, .video19, .video20, .video21, .video22, .video23, .video24,
+.video25, .video26, .video27, .video28, .video29, .video30, .video31, .video32, 
+.video33, .video34, .video35, .video36, .video37, .video38, .video39, .video40, 
+.video41, .video42, .video43, .video44, .video45, .video46, .video47, .video48,
+.video49, .video50, .video51, .video52, .video53, .video54, .video55, .video56,
+.video57, .video58, .video59, .video60, .video61, .video62, .video63, .video64, 
+.video65, .video66, .video67, .video68
+{
+    margin-left: 1%;
+    margin-top: 15%;
+    text-align: left;
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+.video1
+{
+    background-image: url(Images/Background/AnnaBG.png);
+}
+.video2
+{
+    background-image: url(Images/Background/JohnWick3BG.png);
+}
+.video3
+{
+    background-image: url(Images/Background/XmenDarkPhoenixBG.png);
+}
+.video4
+{
+    background-image: url(Images/Background/Mib4BG.png);
+}
+.video5
+{
+    background-image: url(Images/Background/Godzilla2BG.png);
+}
+.video6
+{
+    background-image: url(Images/Background/JokerBG.png);
+}
+.video7
+{
+    background-image: url(Images/Background/RetouraZombielandBG.png);
+}
+.video8
+{
+    background-image: url(Images/Background/OnceUponATimeBG.png);
+}
+.video9
+{
+    background-image: url(Images/Background/GeminiManBG.png);
+}
+.video10
+{
+    background-image: url(Images/Background/AdAstraBG.png);
+}
+.video11
+{
+    background-image: url(Images/Background/BladeRunnerBG.png);
+}
+.video12
+{
+    background-image: url(Images/Background/CaBG.png);
+}
+.video13
+{
+    background-image: url(Images/Background/Ca2BG.png);
+}
+.video14
+{
+    background-image: url(Images/Background/TerminatorDarkFateBG.png);
+}
+.video15
+{
+    background-image: url(Images/Background/ParasiteBG.png);
+}
+.video16
+{
+    background-image: url(Images/Background/FirstManBG.png);
+}
+.video17
+{
+    background-image: url(Images/Background/JohnWick2BG.png);
+}
+.video18
+{
+    background-image: url(Images/Background/ReadyPlayerOneBG.png);
+}
+.video19
+{
+    background-image: url(Images/Background/StarWarsSoloBG.png);
+}
+.video20
+{
+    background-image: url(Images/Background/DunkerqueBG.png);
+}
+.video21
+{
+    background-image: url(Images/Background/RocketManBG.png);
+}
+.video22
+{
+    background-image: url(Images/Background/DoctorSleepBG.png);
+}
+.video23
+{
+    background-image: url(Images/Background/RamboTheLastBloodBG.png);
+}
+.video24
+{
+    background-image: url(Images/Background/TheDeadDontDieBG.png);
+}
+.video25
+{
+    background-image: url(Images/Background/ViceBG.png);
+}
+.video26
+{
+    background-image: url(Images/Background/GlassBG.png);
+}
+.video27
+{
+    background-image: url(Images/Background/LaMuleBG.png);
+}
+.video28
+{
+    background-image: url(Images/Background/LeMans66BG.png);
+}
+.video29
+{
+    background-image: url(Images/Background/DeepWaterBG.png);
+}
+.video30
+{
+    background-image: url(Images/Background/TuNeTuerasPointBG.png);
+}
+.video31
+{
+    background-image: url(Images/Univers/UniversBG/Avengers1BG.png);
+}
+.video32
+{
+    background-image: url(Images/Univers/UniversBG/Avengers2BG.png);
+}
+.video33
+{
+    background-image: url(Images/Univers/UniversBG/Avengers3BG.png);
+}
+.video34
+{
+    background-image: url(Images/Univers/UniversBG/Avengers4BG.png);
+}
+.video35
+{
+    background-image: url(Images/Univers/UniversBG/StarWars1BG.png);
+}
+.video36
+{
+    background-image: url(Images/Univers/UniversBG/StarWars2BG.png);
+}
+.video37
+{
+    background-image: url(Images/Univers/UniversBG/StarWars3BG.png);
+}
+.video38
+{
+    background-image: url(Images/Univers/UniversBG/StarWars4BG.png);
+}
+.video39
+{
+    background-image: url(Images/Univers/UniversBG/StarWars5BG.png);
+}
+.video40
+{
+    background-image: url(Images/Univers/UniversBG/StarWars6BG.png);
+}
+.video41
+{
+    background-image: url(Images/Univers/UniversBG/StarWars7BG.png);
+}
+.video42
+{
+    background-image: url(Images/Univers/UniversBG/StarWars8BG.png);
+}
+.video43
+{
+    background-image: url(Images/Univers/UniversBG/StarWars9BG.png);
+}
+.video44
+{
+    background-image: url(Images/Univers/UniversBG/RogueOneBG.png);
+}
+.video45
+{
+    background-image: url(Images/Background/MadMaxFuryRoadBG.png);
+}
+.video46
+{
+    background-image: url(Images/Univers/UniversBG/IronManBG.png);
+}
+.video47
+{
+    background-image: url(Images/Univers/UniversBG/IronMan2BG.png);
+}
+.video48
+{
+    background-image: url(Images/Univers/UniversBG/IronMan3BG.png);
+}
+.video49
+{
+    background-image: url(Images/Univers/UniversBG/CaptainAmericaBG.png);
+}
+.video50
+{
+    background-image: url(Images/Univers/UniversBG/CaptainAmerica2BG.png);
+}
+.video51
+{
+    background-image: url(Images/Univers/UniversBG/CaptainAmerica3BG.png);
+}
+.video52
+{
+    background-image: url(Images/Univers/UniversBG/ThorBG.png);
+}
+.video53
+{
+    background-image: url(Images/Univers/UniversBG/Thor2BG.png);
+}
+.video54
+{
+    background-image: url(Images/Univers/UniversBG/Thor3BG.png);
+}
+.video55
+{
+    background-image: url(Images/Univers/UniversBG/SpidermanBG.png);
+}
+.video56
+{
+    background-image: url(Images/Univers/UniversBG/Spiderman2BG.png);
+}
+.video57
+{
+    background-image: url(Images/Univers/UniversBG/Spiderman3BG.png);
+}
+.video58
+{
+    background-image: url(Images/Univers/UniversBG/TheAmazingSpidermanBG.png);
+}
+.video59
+{
+    background-image: url(Images/Univers/UniversBG/TheamazingSpiderman2BG.png);
+}
+.video60
+{
+    background-image: url(Images/Univers/UniversBG/NewSpiderManBG.png);
+}
+.video61
+{
+    background-image: url(Images/Univers/UniversBG/NewSpiderMan2BG.png);
+}
+.video62
+{
+    background-image: url(Images/Univers/UniversBG/GardiensdelagalaxyBG.png);
+}
+.video63
+{
+    background-image: url(Images/Univers/UniversBG/Gardiendelagalaxy2BG.png);
+}
+.video64
+{
+    background-image: url(Images/Univers/UniversBG/AntmanBG.png);
+}
+.video65
+{
+    background-image: url(Images/Univers/UniversBG/Antman2BG.png);
+}
+.video66
+{
+    background-image: url(Images/Univers/UniversBG/CaptainMarvelBG.png);
+}
+.video67
+{
+    background-image: url(Images/Univers/UniversBG/BlackPantherBG.png);
+}
+.video68
+{
+    background-image: url(Images/Univers/UniversBG/DocotorStrangeBG.png);
+}
+
+/*----------Serie----------*/
+.serie1
+{
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    opacity: 0.8;
+    background-image: url(Images/Background/ChernobylBG.png);
+    background-size: 1800px;
+}
+.serie2
+{
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    opacity: 0.8;
+    background-image: url(Images/Univers/UniversBG/TheMandalorianBG.jpg);
+    background-size: 1800px;
+}
+.serie3
+{
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    opacity: 0.8;
+    background-image: url(Images/Background/WatchmenBG.png);
+    background-size: 1800px;
+}
+.episode
+{
+    color: white;
+    font-family: 'Yantramanav', sans-serif;
+    margin-bottom: -1px;
+}
+
+
+
+@media all and (max-width: 1400px)
+{
+/*----------Section Affiche Film----------*/
+.affichefilm
+{
+    margin-bottom: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*----------Section Affiche Série----------*/
+.afficheserie
+{
+    justify-content: center;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
